@@ -21,7 +21,7 @@ const MyProfile = () => {
         }
       },[])
     const handleEdit = (post)=>{
-        router.push(`/api/update-prompt?id=${post._id}`)
+        router.push(`/update-prompt?id=${post._id}`)
 
     }
     const handleDelete =  async (post) => {
